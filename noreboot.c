@@ -1,4 +1,4 @@
-/* Mirai only exists in memory device reboot = mirai gone so we write 0x80045704 to watchdog to disables the kernel watchdog */
+/* Mirai only exists in memory device reboot = mirai gone so we write 0x80045704 to watchdog to disables the kernel watchdog to stop automatic reboots or atleast attempt to */
 
 void noreboot(void)
 {
